@@ -31,6 +31,19 @@
 		03ED9A9418CC9AD50033A70A /* loading2.png in Resources */ = {isa = PBXBuildFile; fileRef = 03ED9A9018CC9AD50033A70A /* loading2.png */; };
 		03ED9A9518CC9AD50033A70A /* loading3.png in Resources */ = {isa = PBXBuildFile; fileRef = 03ED9A9118CC9AD50033A70A /* loading3.png */; };
 		03ED9A9618CC9AD50033A70A /* loading4.png in Resources */ = {isa = PBXBuildFile; fileRef = 03ED9A9218CC9AD50033A70A /* loading4.png */; };
+		5503A605742B41208ADE67D5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 608BD920E6F5462AAE31BCCE /* libPods.a */; };
+		D61A0C4418CDF916008BC286 /* GitHubEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = D61A0C4318CDF916008BC286 /* GitHubEngine.m */; };
+		D61A0C4A18CE12F4008BC286 /* UserObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D61A0C4918CE12F4008BC286 /* UserObject.m */; };
+		D6430E0B18CE2242000113F3 /* RepositoryObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D6430E0A18CE2242000113F3 /* RepositoryObject.m */; };
+		D6430E0E18CE2C4E000113F3 /* icon_large.png in Resources */ = {isa = PBXBuildFile; fileRef = D6430E0C18CE2C4E000113F3 /* icon_large.png */; };
+		D6430E0F18CE2C4E000113F3 /* icon_small.png in Resources */ = {isa = PBXBuildFile; fileRef = D6430E0D18CE2C4E000113F3 /* icon_small.png */; };
+		D68F5EA618CDC6D8007E0E28 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = D68F5EA518CDC6D8007E0E28 /* background.png */; };
+		D68F5EA918CDD41E007E0E28 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D68F5EA818CDD41E007E0E28 /* DetailViewController.m */; };
+		D68F5EAC18CDD647007E0E28 /* DetailSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = D68F5EAB18CDD647007E0E28 /* DetailSegue.m */; };
+		D68F5EAE18CDD664007E0E28 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D68F5EAD18CDD664007E0E28 /* QuartzCore.framework */; };
+		D68F5EB118CDDB6C007E0E28 /* RepositoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D68F5EB018CDDB6C007E0E28 /* RepositoryCell.m */; };
+		D68F5EB318CDDC52007E0E28 /* RepositoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D68F5EB218CDDC52007E0E28 /* RepositoryCell.xib */; };
+		D68F5EB518CDE06C007E0E28 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = D68F5EB418CDE06C007E0E28 /* star.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +86,26 @@
 		03ED9A9018CC9AD50033A70A /* loading2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading2.png; sourceTree = "<group>"; };
 		03ED9A9118CC9AD50033A70A /* loading3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading3.png; sourceTree = "<group>"; };
 		03ED9A9218CC9AD50033A70A /* loading4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading4.png; sourceTree = "<group>"; };
+		495BAEB9B0D94990876588A7 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		608BD920E6F5462AAE31BCCE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D61A0C4218CDF916008BC286 /* GitHubEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitHubEngine.h; sourceTree = "<group>"; };
+		D61A0C4318CDF916008BC286 /* GitHubEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitHubEngine.m; sourceTree = "<group>"; };
+		D61A0C4818CE12F4008BC286 /* UserObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserObject.h; sourceTree = "<group>"; };
+		D61A0C4918CE12F4008BC286 /* UserObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserObject.m; sourceTree = "<group>"; };
+		D6430E0918CE2242000113F3 /* RepositoryObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepositoryObject.h; sourceTree = "<group>"; };
+		D6430E0A18CE2242000113F3 /* RepositoryObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepositoryObject.m; sourceTree = "<group>"; };
+		D6430E0C18CE2C4E000113F3 /* icon_large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_large.png; sourceTree = SOURCE_ROOT; };
+		D6430E0D18CE2C4E000113F3 /* icon_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_small.png; sourceTree = SOURCE_ROOT; };
+		D68F5EA518CDC6D8007E0E28 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		D68F5EA718CDD41E007E0E28 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		D68F5EA818CDD41E007E0E28 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		D68F5EAA18CDD647007E0E28 /* DetailSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailSegue.h; sourceTree = "<group>"; };
+		D68F5EAB18CDD647007E0E28 /* DetailSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailSegue.m; sourceTree = "<group>"; };
+		D68F5EAD18CDD664007E0E28 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D68F5EAF18CDDB6C007E0E28 /* RepositoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepositoryCell.h; sourceTree = "<group>"; };
+		D68F5EB018CDDB6C007E0E28 /* RepositoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepositoryCell.m; sourceTree = "<group>"; };
+		D68F5EB218CDDC52007E0E28 /* RepositoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RepositoryCell.xib; sourceTree = "<group>"; };
+		D68F5EB418CDE06C007E0E28 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +113,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D68F5EAE18CDD664007E0E28 /* QuartzCore.framework in Frameworks */,
 				03ED9A4E18CB18F00033A70A /* CoreGraphics.framework in Frameworks */,
 				03ED9A5018CB18F00033A70A /* UIKit.framework in Frameworks */,
 				03ED9A4C18CB18F00033A70A /* Foundation.framework in Frameworks */,
+				5503A605742B41208ADE67D5 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +141,7 @@
 				03ED9A7018CB18F00033A70A /* githubclientTests */,
 				03ED9A4A18CB18F00033A70A /* Frameworks */,
 				03ED9A4918CB18F00033A70A /* Products */,
+				495BAEB9B0D94990876588A7 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,10 +157,12 @@
 		03ED9A4A18CB18F00033A70A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D68F5EAD18CDD664007E0E28 /* QuartzCore.framework */,
 				03ED9A4B18CB18F00033A70A /* Foundation.framework */,
 				03ED9A4D18CB18F00033A70A /* CoreGraphics.framework */,
 				03ED9A4F18CB18F00033A70A /* UIKit.framework */,
 				03ED9A6A18CB18F00033A70A /* XCTest.framework */,
+				608BD920E6F5462AAE31BCCE /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -132,12 +170,16 @@
 		03ED9A5118CB18F00033A70A /* githubclient */ = {
 			isa = PBXGroup;
 			children = (
+				D6430E0C18CE2C4E000113F3 /* icon_large.png */,
+				D6430E0D18CE2C4E000113F3 /* icon_small.png */,
+				D6430E0818CE21B3000113F3 /* services */,
+				D61A0C4718CE12D2008BC286 /* model */,
+				D61A0C4618CE0F9E008BC286 /* views */,
+				D61A0C4518CE0F8C008BC286 /* controllers */,
 				03ED9A8018CB216D0033A70A /* resources */,
 				03ED9A5A18CB18F00033A70A /* AppDelegate.h */,
 				03ED9A5B18CB18F00033A70A /* AppDelegate.m */,
 				03ED9A5D18CB18F00033A70A /* Main.storyboard */,
-				03ED9A6018CB18F00033A70A /* ViewController.h */,
-				03ED9A6118CB18F00033A70A /* ViewController.m */,
 				03ED9A6318CB18F00033A70A /* Images.xcassets */,
 				03ED9A5218CB18F00033A70A /* Supporting Files */,
 			);
@@ -184,6 +226,8 @@
 		03ED9A8118CB216D0033A70A /* images */ = {
 			isa = PBXGroup;
 			children = (
+				D68F5EB418CDE06C007E0E28 /* star.png */,
+				D68F5EA518CDC6D8007E0E28 /* background.png */,
 				03ED9A8E18CC9ABC0033A70A /* loadingAnimation */,
 				03ED9A8A18CB34F20033A70A /* button_bg.png */,
 				03ED9A8B18CB34F20033A70A /* button_bg@2x.png */,
@@ -206,6 +250,49 @@
 			name = loadingAnimation;
 			sourceTree = "<group>";
 		};
+		D61A0C4518CE0F8C008BC286 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				03ED9A6018CB18F00033A70A /* ViewController.h */,
+				03ED9A6118CB18F00033A70A /* ViewController.m */,
+				D68F5EA718CDD41E007E0E28 /* DetailViewController.h */,
+				D68F5EA818CDD41E007E0E28 /* DetailViewController.m */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		D61A0C4618CE0F9E008BC286 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				D68F5EAA18CDD647007E0E28 /* DetailSegue.h */,
+				D68F5EAB18CDD647007E0E28 /* DetailSegue.m */,
+				D68F5EAF18CDDB6C007E0E28 /* RepositoryCell.h */,
+				D68F5EB018CDDB6C007E0E28 /* RepositoryCell.m */,
+				D68F5EB218CDDC52007E0E28 /* RepositoryCell.xib */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		D61A0C4718CE12D2008BC286 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				D61A0C4818CE12F4008BC286 /* UserObject.h */,
+				D61A0C4918CE12F4008BC286 /* UserObject.m */,
+				D6430E0918CE2242000113F3 /* RepositoryObject.h */,
+				D6430E0A18CE2242000113F3 /* RepositoryObject.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		D6430E0818CE21B3000113F3 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				D61A0C4218CDF916008BC286 /* GitHubEngine.h */,
+				D61A0C4318CDF916008BC286 /* GitHubEngine.m */,
+			);
+			name = services;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -213,9 +300,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03ED9A7A18CB18F00033A70A /* Build configuration list for PBXNativeTarget "githubclient" */;
 			buildPhases = (
+				4CB61787A0154560937D1FE3 /* Check Pods Manifest.lock */,
 				03ED9A4418CB18F00033A70A /* Sources */,
 				03ED9A4518CB18F00033A70A /* Frameworks */,
 				03ED9A4618CB18F00033A70A /* Resources */,
+				E75EFE3A98144E8FB02214FD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -285,12 +374,17 @@
 				03ED9A8518CB25970033A70A /* logo@2x.png in Resources */,
 				03ED9A8D18CB34F20033A70A /* button_bg@2x.png in Resources */,
 				03ED9A9318CC9AD50033A70A /* loading1.png in Resources */,
+				D68F5EB318CDDC52007E0E28 /* RepositoryCell.xib in Resources */,
 				03ED9A9418CC9AD50033A70A /* loading2.png in Resources */,
+				D68F5EB518CDE06C007E0E28 /* star.png in Resources */,
 				03ED9A8818CB2F250033A70A /* search.png in Resources */,
+				D6430E0E18CE2C4E000113F3 /* icon_large.png in Resources */,
+				D6430E0F18CE2C4E000113F3 /* icon_small.png in Resources */,
 				03ED9A9618CC9AD50033A70A /* loading4.png in Resources */,
 				03ED9A8318CB216D0033A70A /* logo.png in Resources */,
 				03ED9A8918CB2F250033A70A /* search@2x.png in Resources */,
 				03ED9A8C18CB34F20033A70A /* button_bg.png in Resources */,
+				D68F5EA618CDC6D8007E0E28 /* background.png in Resources */,
 				03ED9A9518CC9AD50033A70A /* loading3.png in Resources */,
 				03ED9A6418CB18F00033A70A /* Images.xcassets in Resources */,
 				03ED9A5618CB18F00033A70A /* InfoPlist.strings in Resources */,
@@ -308,14 +402,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4CB61787A0154560937D1FE3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E75EFE3A98144E8FB02214FD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		03ED9A4418CB18F00033A70A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D61A0C4418CDF916008BC286 /* GitHubEngine.m in Sources */,
 				03ED9A6218CB18F00033A70A /* ViewController.m in Sources */,
 				03ED9A5C18CB18F00033A70A /* AppDelegate.m in Sources */,
+				D6430E0B18CE2242000113F3 /* RepositoryObject.m in Sources */,
+				D68F5EAC18CDD647007E0E28 /* DetailSegue.m in Sources */,
 				03ED9A5818CB18F00033A70A /* main.m in Sources */,
+				D61A0C4A18CE12F4008BC286 /* UserObject.m in Sources */,
+				D68F5EA918CDD41E007E0E28 /* DetailViewController.m in Sources */,
+				D68F5EB118CDDB6C007E0E28 /* RepositoryCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,26 +572,38 @@
 		};
 		03ED9A7B18CB18F00033A70A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 495BAEB9B0D94990876588A7 /* Pods.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "githubclient/githubclient-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/iOS7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = "githubclient/githubclient-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		03ED9A7C18CB18F00033A70A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 495BAEB9B0D94990876588A7 /* Pods.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "githubclient/githubclient-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/iOS7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = "githubclient/githubclient-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

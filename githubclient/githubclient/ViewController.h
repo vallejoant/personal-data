@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITextFieldDelegate>
+
+@property (strong, nonatomic) IBOutlet UIView *viewBackground;
 @property (weak, nonatomic) IBOutlet UIButton *buttonMainSearch;
 @property (weak, nonatomic) IBOutlet UITextField *textFieldUserName;
 @property (weak, nonatomic) IBOutlet UIView *viewLoaging;
