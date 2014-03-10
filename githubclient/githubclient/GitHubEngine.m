@@ -28,7 +28,6 @@ static GitHubEngine *sharedSingleton = nil;
 }
 
 
-
 - (void) authenticate
 {
      engine = [[UAGithubEngine alloc] initWithUsername:@"githubclienttest" password:@"githubclienttest1" withReachability:YES];

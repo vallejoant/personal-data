@@ -35,8 +35,6 @@
 		D61A0C4418CDF916008BC286 /* GitHubEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = D61A0C4318CDF916008BC286 /* GitHubEngine.m */; };
 		D61A0C4A18CE12F4008BC286 /* UserObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D61A0C4918CE12F4008BC286 /* UserObject.m */; };
 		D6430E0B18CE2242000113F3 /* RepositoryObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D6430E0A18CE2242000113F3 /* RepositoryObject.m */; };
-		D6430E0E18CE2C4E000113F3 /* icon_large.png in Resources */ = {isa = PBXBuildFile; fileRef = D6430E0C18CE2C4E000113F3 /* icon_large.png */; };
-		D6430E0F18CE2C4E000113F3 /* icon_small.png in Resources */ = {isa = PBXBuildFile; fileRef = D6430E0D18CE2C4E000113F3 /* icon_small.png */; };
 		D68F5EA618CDC6D8007E0E28 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = D68F5EA518CDC6D8007E0E28 /* background.png */; };
 		D68F5EA918CDD41E007E0E28 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D68F5EA818CDD41E007E0E28 /* DetailViewController.m */; };
 		D68F5EAC18CDD647007E0E28 /* DetailSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = D68F5EAB18CDD647007E0E28 /* DetailSegue.m */; };
@@ -94,8 +92,8 @@
 		D61A0C4918CE12F4008BC286 /* UserObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserObject.m; sourceTree = "<group>"; };
 		D6430E0918CE2242000113F3 /* RepositoryObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepositoryObject.h; sourceTree = "<group>"; };
 		D6430E0A18CE2242000113F3 /* RepositoryObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepositoryObject.m; sourceTree = "<group>"; };
-		D6430E0C18CE2C4E000113F3 /* icon_large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_large.png; sourceTree = SOURCE_ROOT; };
-		D6430E0D18CE2C4E000113F3 /* icon_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_small.png; sourceTree = SOURCE_ROOT; };
+		D6430E1018CE2EF5000113F3 /* icon_large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_large.png; sourceTree = "<group>"; };
+		D6430E1118CE2F03000113F3 /* icon_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_small.png; sourceTree = "<group>"; };
 		D68F5EA518CDC6D8007E0E28 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		D68F5EA718CDD41E007E0E28 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		D68F5EA818CDD41E007E0E28 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
@@ -137,6 +135,8 @@
 		03ED9A3F18CB18F00033A70A = {
 			isa = PBXGroup;
 			children = (
+				D6430E1118CE2F03000113F3 /* icon_small.png */,
+				D6430E1018CE2EF5000113F3 /* icon_large.png */,
 				03ED9A5118CB18F00033A70A /* githubclient */,
 				03ED9A7018CB18F00033A70A /* githubclientTests */,
 				03ED9A4A18CB18F00033A70A /* Frameworks */,
@@ -170,8 +170,6 @@
 		03ED9A5118CB18F00033A70A /* githubclient */ = {
 			isa = PBXGroup;
 			children = (
-				D6430E0C18CE2C4E000113F3 /* icon_large.png */,
-				D6430E0D18CE2C4E000113F3 /* icon_small.png */,
 				D6430E0818CE21B3000113F3 /* services */,
 				D61A0C4718CE12D2008BC286 /* model */,
 				D61A0C4618CE0F9E008BC286 /* views */,
@@ -378,8 +376,6 @@
 				03ED9A9418CC9AD50033A70A /* loading2.png in Resources */,
 				D68F5EB518CDE06C007E0E28 /* star.png in Resources */,
 				03ED9A8818CB2F250033A70A /* search.png in Resources */,
-				D6430E0E18CE2C4E000113F3 /* icon_large.png in Resources */,
-				D6430E0F18CE2C4E000113F3 /* icon_small.png in Resources */,
 				03ED9A9618CC9AD50033A70A /* loading4.png in Resources */,
 				03ED9A8318CB216D0033A70A /* logo.png in Resources */,
 				03ED9A8918CB2F250033A70A /* search@2x.png in Resources */,
